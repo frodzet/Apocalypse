@@ -1,7 +1,24 @@
 #BlueJ class context
 comment0.target=Weapon
+<<<<<<< HEAD
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Weapon\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=weapon\ damage\ fireRate\ reloadTime\ range
+comment1.target=Weapon(java.lang.String,\ int,\ int,\ int,\ int)
+comment2.params=
+comment2.target=void\ setWeaponImage()
+comment3.params=
+comment3.target=int\ getDamage()
+comment4.params=
+comment4.target=int\ getFireRate()
+comment5.params=
+comment5.target=int\ getReloadTime()
+comment6.params=
+comment6.target=void\ spawnWeaponAtRandomLocation()
+numComments=7
+=======
 comment0.text=\n\ Write\ a\ description\ of\ class\ Weapon\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
 comment1.params=
 comment1.target=void\ act()
 comment1.text=\n\ Act\ -\ do\ whatever\ the\ Weapon\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
 numComments=2
+>>>>>>> origin/master

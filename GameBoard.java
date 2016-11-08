@@ -8,10 +8,11 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class GameBoard extends World
 {
-    private static final int WORLD_WIDTH = 1200;
-    private static final int WORLD_HEIGHT = 800;
+    private static final int WORLD_WIDTH = 600;
+    private static final int WORLD_HEIGHT = 400;
     private Player player;
     private Creature creature;
+    private Weapon weapon;
     /**
      * Constructor for objects of class GameBoard.
      */
@@ -19,10 +20,9 @@ public class GameBoard extends World
     {    
         // Create a new world with 1200x800 cells with a cell size of 1x1 pixels.
         super(WORLD_WIDTH, WORLD_HEIGHT, 1, true);
-        //
+
         // Load default settings.
-        init();
-        
+        init();        
     }
     
     /**
@@ -47,6 +47,8 @@ public class GameBoard extends World
         player = new Player();
         player.getImage().rotate(player.getRotation() - 45); // Depends on image.
         this.addObject(player, WORLD_WIDTH/2, WORLD_HEIGHT/2);
+        weapon = new Weapon("Pistol", 1, 1, 1, 1);
+        this.addObject(weapon, 55, 55);
     }
     
     public void startNextWave(int amount)
