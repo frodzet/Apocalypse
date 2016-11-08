@@ -1,5 +1,5 @@
 #Greenfoot properties
-#Tue Nov 08 10:28:46 CET 2016
+#Tue Nov 08 11:07:11 CET 2016
 class.Weapon.superclass=greenfoot.Actor
 <<<<<<<=HEAD
 class.Rifle.superclass=Weapon
@@ -48,8 +48,8 @@ target3.x=70
 target2.type=ClassTarget
 target2.y=10
 target2.x=190
-class.MG.superclass=Weapon
 mainWindow.y=-8
+class.MG.superclass=Weapon
 mainWindow.x=-8
 dependency1.from=Creature
 target1.y=10
@@ -70,6 +70,6 @@ target2.showInterface=false
 editor.swing.0.height=0
 target3.name=GameBoard
 class.Shotgun.superclass=Weapon
-project.charset=UTF-8
 target3.width=90
+project.charset=UTF-8
 =\=\=\=\=\=\=
